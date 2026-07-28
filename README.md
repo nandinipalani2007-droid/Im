@@ -23,5 +23,4 @@ This project was built as a final capstone to demonstrate front-end web developm
 - JavaScript (ES6, vanilla DOM manipulation — no framework dependencies)
 
 ## Author
-
-Santhoshy
+nandini
