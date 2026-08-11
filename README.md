@@ -1,26 +1,45 @@
-# Paradise Nursery 🌿
+# e-plantShopping
 
-**Paradise Nursery** is a dynamic, single-page e-commerce web application for an online plant shop. It allows customers to browse a curated collection of houseplants, view product details (images, names, descriptions, and prices), add items to a shopping cart, and manage cart contents — including adjusting quantities and removing items — with the total cost updating in real time.
+## Project Name
 
-## Project Overview
+e-plantShopping
 
-This project was built as a final capstone to demonstrate front-end web development skills, including DOM manipulation, state management, and building an interactive, user-friendly shopping experience from scratch.
+## Project Description
+
+e-plantShopping is a user-friendly online plant shopping application designed to make purchasing plants simple and convenient. Users can explore a variety of plants, view their details, and add their favourite plants to a shopping cart.
+
+## About the Project
+
+The e-plantShopping application provides an online platform where users can discover different types of plants for their homes, gardens, and indoor spaces. The application is designed with a simple and attractive interface to provide a smooth shopping experience.
 
 ## Features
 
-- **Landing Page** — A welcoming hero section introducing the Paradise Nursery brand, with a "Get Started" call-to-action.
-- **Product Listing Page** — Plants organized into categories (Air Purifying Plants, Succulents, Flowering Plants), each displayed with an image, name, description, and price.
-- **Navigation Bar** — Persistent header with the store logo (click to return to the product page) and a live cart icon showing the total item count.
-- **Add to Cart** — Users can add any plant to their cart; the button updates to reflect items already added.
-- **Shopping Cart Page** — Displays all cart items with quantity controls (increase/decrease), a remove option, and per-item subtotals.
-- **Dynamic Totals** — Total number of items and total cost recalculate instantly as the cart changes.
-- **Checkout Button** — Placeholder checkout flow to complete the shopping experience.
+* Browse a variety of plants.
+* View plant names, images, prices, and details.
+* Plants are organized into different categories.
+* Add plants to the shopping cart.
+* View the selected plants in the cart.
+* Increase or decrease the quantity of plants.
+* View the total price of selected plants.
+* Navigate easily between the product listing and shopping cart.
+* Responsive and user-friendly interface.
 
-## Tech Stack
+## Plant Categories
 
-- HTML5
-- CSS3 (responsive grid layout, custom styling)
-- JavaScript (ES6, vanilla DOM manipulation — no framework dependencies)
+The application includes different categories of plants such as indoor plants, flowering plants, and low-maintenance plants. Each category provides users with different options to choose from according to their preferences.
 
-## Author
-nandini
+## Shopping Cart
+
+The shopping cart allows users to manage their selected plants. Users can increase or decrease the quantity of each plant and view the updated individual and overall cart total.
+
+## Technologies Used
+
+The project is developed using React, JavaScript, HTML, and CSS. These technologies are used to create an interactive, responsive, and user-friendly plant shopping application.
+
+## Project Objective
+
+The main objective of e-plantShopping is to provide a convenient online platform for plant shopping. The project aims to give users an easy way to explore plants, select their favourite products, manage their cart, and enjoy a simple online shopping experience.
+
+## Conclusion
+
+e-plantShopping demonstrates how a modern web application can be used to create an easy and convenient online shopping experience for plant lovers. The application combines product browsing, categorization, cart management, and user-friendly navigation in one platform.
