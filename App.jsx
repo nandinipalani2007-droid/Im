@@ -2,34 +2,27 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [showLanding, setShowLanding] = useState(true);
+  const [showProducts, setShowProducts] = useState(false);
 
   const handleGetStarted = () => {
-    setShowLanding(false);
+    setShowProducts(true);
   };
 
   return (
-    <div className="App">
-      {showLanding ? (
-        <div className="landing-page">
-          <div className="landing-content">
-            <h1>Paradise Nursery</h1>
-            <p>Where Green Meets Serenity</p>
-            <p className="landing-description">
-              Every plant we grow is nurtured with love, care, and
-              sustainable practices. Bring home a little piece of paradise
-              and let nature breathe life into your space.
-            </p>
-            <button className="get-started-button" onClick={handleGetStarted}>
-              Get Started
-            </button>
-          </div>
-        </div>
+    <div className="landing-page background-image">
+      {!showProducts ? (
+        <>
+          <h1>Paradise Nursery</h1>
+          <p>Bring Nature Home</p>
+
+          <button onClick={handleGetStarted}>
+            Get Started
+          </button>
+        </>
       ) : (
-        <div className="product-page">
-          {/* Product listing, navbar, and cart components render here
-              once the user clicks "Get Started". */}
-          <h2>Welcome to the Paradise Nursery shop!</h2>
+        <div className="product-list">
+          <h2>Our Plants</h2>
+          <p>Explore our beautiful collection of plants.</p>
         </div>
       )}
     </div>
